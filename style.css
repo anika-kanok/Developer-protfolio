@@ -110,7 +110,7 @@ header{
        }
 
        & p{
-        font-size:  clamp(1.5rem, 3vw, 2.8125rem);
+        font-size: 1.125rem;
         color:#757575;
         font-weight: 400;
         line-height: 2rem;
@@ -229,6 +229,7 @@ header{
 
     & .hi{
        width: 100%;
+
        position: absolute;
        top: 15%;
        left: 30%;
