@@ -176,7 +176,7 @@ header{
     header{
     width: 100%;
     position: relative; 
-    min-height: 100vh;
+    min-height: 140vh;
 
     & .Group{
         min-height: auto;
@@ -276,8 +276,8 @@ header{
         justify-content: center;
         text-align: center;
          & img{
-            width: 100%;
-            display: block;
+            width: 90%;
+            display:inline-block;
       
          }
     }
