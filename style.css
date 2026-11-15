@@ -5,6 +5,12 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -167,16 +173,121 @@ header{
 
 /* header section end here */
 
+.about{
+    & .about-me{
+        background: #FFF8F3;
+        min-height: 550px;
+        margin: 8.125rem auto;
+        line-height: 1.4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .me{
+            width: 100%;
+            max-width: 827px;
+            min-height: 288px;
+            margin: 8.1875px;
+            text-align: center;
+            & h1{
+                font-weight: 700;
+                color: #181818;
+                font-size: 2.187rem;
+            }
+
+            & .text{
+                font-weight: 400;
+                font-size: 1.125rem;
+                color: #757575;
+                padding-top: 1rem;
+                line-height: 2.10rem;
+            }
+
+            & .info{
+                display: flex;
+                justify-content: space-around;
+                & div{
+                    padding-top: 2rem;
+                    & span{
+                        font-size: 1.25rem;
+                        color: #757575;
+                    }
+
+                    & h4{
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                    }
+                }
+
+            }
+        }
+
+    }
+    
+}
+
+/* About section start here */
+
+/* what i do section start here */
+ & .do{
+    text-align: center;
+    & h1{
+        color:#181818;
+        font-size: 2.187rem;
+    }
+    
+            & .text2{
+                font-size: 1.125rem;
+                color: #757575;
+                max-width: 900px;
+                width: 100%;
+                min-height: 90px;
+                justify-self: center;
+                padding: 2rem 0rem;
+    
+            }
+
+ }
+/* what i do section end here */
+
+
+
+/* card-section start here */
+   .all-card{
+
+    & .card{
+        & img{
+            height: 44px;
+            width: 44px;
+        }
+
+        & h2{
+            font-size:1.25rem ;
+            color:#181818;
+        }
+
+        & p{
+            font-size: 1rem;
+            color:#474747;
+        }
+
+    }
+   }
+/* card-section end here */
+
+
+
 
 
 
 
 /* Responsive for mobile device */
 @media (max-width:576px) {
+    /* header section responsive */
     header{
     width: 100%;
     position: relative; 
-    min-height: 100vh;
+    min-height: 110vh;
 
     & .Group{
         min-height: auto;
