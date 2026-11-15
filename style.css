@@ -571,15 +571,23 @@ header{
          }
     }
 
+    /* about me section start here */
+    
+    /* about me section  end here */
 
+
+    }
+
+    .do{
+        margin: 2rem;
     }
 
 
     .all-card{
-
-        & .card{
-            
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1.60rem;
     }
 
 
