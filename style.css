@@ -5,6 +5,11 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .container{
     width: 100%;
     max-width: 1140px;
@@ -579,14 +584,9 @@ header{
         margin: 0;
         & .about-me{
             padding: 2rem;
-            & .me{
-
-            }
-
             & .info{
                 display: flex;
-                flex-wrap: wrap;
-                row-gap: 1rem;
+                flex-direction: column;
             }
         }
     }
