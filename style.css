@@ -199,7 +199,6 @@ header{
                 font-weight: 400;
                 font-size: 1.125rem;
                 color: #757575;
-                padding-top: 1rem;
                 line-height: 2.10rem;
             }
 
@@ -244,6 +243,7 @@ header{
                 min-height: 90px;
                 justify-self: center;
                 padding: 2rem 0rem;
+                line-height: 1.6;
     
             }
 
@@ -565,18 +565,32 @@ header{
         justify-content: center;
         text-align: center;
          & img{
-            width: 60%;
+            width: 80%;
             display:inline-block;
       
          }
     }
 
-    /* about me section start here */
     
-    /* about me section  end here */
+    
+}
+/* about me section start here */
+    .about{
+        margin: 0;
+        & .about-me{
+            padding: 2rem;
+            & .me{
 
+            }
 
+            & .info{
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 1rem;
+            }
+        }
     }
+/* about me section  end here */
 
     .do{
         margin: 2rem;
@@ -666,6 +680,4 @@ header{
 
  /* footer section responsive end here */
 
-}
-
-  
+} 
